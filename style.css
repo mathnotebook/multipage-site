@@ -1,0 +1,47 @@
+
+nav a:hover{
+  background-color:darkgreen;
+  color:gray;
+}
+
+nav a:active{
+  background-color:chocolate;
+  color:floralwhite;
+}
+
+ body{
+    background-image:url("https://today.duke.edu/sites/default/files/SpaceDiplomacy_Background_Ben--Moved%20Moon%5B22%5D.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+
+nav a {
+  text-decoration: none;
+  margin:20px;
+}
+
+/*
+h1,a,p{
+  color:aquamarine;
+}
+*/ 
+
+*{
+  color:floralwhite;
+}
+
+h1:first-letter{
+  font-size:2em
+}
+
+li:first-child{font-size:2em}
+
+a[target="_blank"]{
+  background-color:cadetblue;
+  color:#7ddbb4;
+}
+
+img{
+  height: 100px;
+  width:140px;
+}
